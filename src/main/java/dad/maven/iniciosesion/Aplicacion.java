@@ -11,7 +11,7 @@ public class Aplicacion extends Application {
 	@Override
 	public void start(Stage primaryStage) throws Exception {
 
-		Scene escena = new Scene(controlador.getView(), 400, 150);
+		Scene escena = new Scene(controlador.getView(), 335, 150);
 
 		primaryStage.setScene(escena);
 		primaryStage.setTitle("Iniciar sesión");
